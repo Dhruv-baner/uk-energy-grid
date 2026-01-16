@@ -1,0 +1,67 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Data files
+data/raw/*
+data/processed/*
+data/predictions/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/predictions/.gitkeep
+*.csv
+*.parquet
+*.db
+*.sqlite
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# API keys and secrets
+.env
+config/secrets.py
+*.key
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MLflow (for Part 2)
+mlruns/
+mlartifacts/
+
+# Docker (for Part 2)
+*.env.local
+docker-compose.override.yml
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Distribution
+dist/
+build/
+*.egg-info/
